@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vista Med</title>
+</head>
+<body>
+  <div class="root">
+    <section class="main">
+      <div class="block">
+        <div class="block-header block-header_left">
+          <h3 class="block-header__title">Информация о пациенте</h3>
+          <button class="block-header__btn-wrap">
+            <div class="arrow arrow_left"></div>
+          </button>
+        </div>
+        <div class="information">
+          <div class="information__row">
+            <p class="information__title">ФИО</p>
+            <p id="info-fio" class="information__text"></p>
+          </div>
+          <div class="information__row">
+            <p class="information__title">Возраст</p>
+            <p id="info-age" class="information__text"></p>
+          </div>
+          <div class="information__row">
+            <p class="information__title">Диагноз</p>
+            <p id="info-diagnose" class="information__text"></p>
+          </div>
+        </div>
+      </div>
+      <div class="block">
+        <div class="block-header">
+          <nav class="block-header__btns">
+            <button id="btn-left" class="block-header__btn block-header__btn_active" disabled>ПРИСУТСТВУЮТ(11)</button>
+            <button id="btn-right" class="block-header__btn">ВЫБЫВШИЕ(5)</button>
+          </nav>
+        </div>
+        <table class="table">
+          <tr class="table__row">
+            <th class="table__item table__item_head">№ ИБ</th>
+            <th class="table__item table__item_head">ФИО</th>
+            <th class="table__item table__item_head">Палата</th>
+          </tr>
+        </table>
+      </div>
+      </div>
+    </section>
+  </div>
+  <template id="table__row">
+    <tr class="table__row">
+      <td id="item-number" class="table__item">1</th>
+      <td id="item-fio" class="table__item">Романов Роман Романыч</th>
+      <td id="item-palata" class="table__item">10</th>
+    </tr class="table__row">
+  </template>
+</body>
+</html>

@@ -1,0 +1,5 @@
+.table__row:not(:first-child):hover {
+  background-color: rgb(237,237,237);
+  border-left: 2px solid rgb(69, 147, 185);
+  cursor: pointer;
+}

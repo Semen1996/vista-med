@@ -1,0 +1,11 @@
+.block-header__btn {
+  width: 218px;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 0;
+  border: 0;
+  background-color: inherit;
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+}

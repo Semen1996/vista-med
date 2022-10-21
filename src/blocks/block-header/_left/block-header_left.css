@@ -1,0 +1,7 @@
+.block-header_left {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  align-items: center;
+  background-color: rgb(114, 193, 231);
+}
